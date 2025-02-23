@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReviewHub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">ReviewHub</a>
+                <!-- <img src = "Assets/Clapboard.png" alt = "Website logo"> -->
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="review.html">Reviews</a></li>
+
+             
+            </ul>
+            <div class="search-container">
+                <input type="text" id="search-input-navbar" placeholder="Search Movies..." />
+                <button id="search-button-navbar" onclick="searchMovies()">Search</button>
+            </div>
+           
+        <div id="search-results" class="search-results-container"></div>
+
+        </nav>
+    </header>
+
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover the Best Movies</h1>
+            <p>Find, Rate, and Review your favorite movies.</p>
+            <a href="movies.html" class="cta-btn">Browse Movies</a>
+        </div>
+    </section>
+
+    
+    <section class="categories">
+        <h2>Popular Movie Categories</h2>
+        <div class="category-list">
+            <div class="category-card">
+                <img src="Assets/Scifi.jpg" alt="Action Movies">
+                <h3>Action</h3>
+            </div>
+            <div class="category-card">
+                <img src="Assets/drama.jpg" alt="Drama Movies">
+                <h3>Drama</h3>
+            </div>
+            <div class="category-card">
+                <img src="Assets/drama1.jpg" alt="Comedy Movies">
+                <h3>Drama</h3>
+            </div>
+            <div class="category-card">
+                <img src="Assets/thriller.jpg" alt="Thriller Movies">
+                <h3>Thriller</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="featured-movies">
+        <h2>Featured Movies</h2>
+        <div class="movie-list">
+            <div class="movie-card">
+                <img src="assets/Batman.jpg" alt="Movie 1">
+                <h3>batman</h3>
+                <p>Action, Adventure</p>
+            </div>
+            <div class="movie-card">
+                <img src="assets/Interstellar.jpg" alt="Movie 2">
+                <h3>Interstellar</h3>
+                <p>Drama, Sci-Fi</p>
+            </div>
+            <div class="movie-card">
+                <img src="assets/Topgunmaverick.jpg" alt="Movie 3">
+                <h3>Topgunmaverick</h3>
+                <p>Drama, Family</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
