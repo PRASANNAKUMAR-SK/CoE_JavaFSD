@@ -1,0 +1,16 @@
+<div class="restaurant-container" (click)="onrestaurantClick(restaurantlist.id)">
+    <div class="restaurant-card" >
+        <img src="http://localhost:8090/restaurants-image/{{restaurantlist.image}}" 
+             class="restaurant-img" 
+             alt="{{restaurantlist.name}}">
+        <div class="card-body">
+            <h5 class="card-title">{{restaurantlist.name}}</h5>
+            <p class="card-text">
+                <strong>Cuisine:</strong> {{restaurantlist.cuisine}}<br>
+                <strong>Address:</strong> {{restaurantlist.address}}<br>
+                <strong>Rating: {{ restaurantlist.dining_rating| rating }}</strong><br>
+                <strong>Delivery Rating:</strong> {{restaurantlist.delivery_rating}}<br>
+            </p>
+        </div>
+    </div>
+</div>

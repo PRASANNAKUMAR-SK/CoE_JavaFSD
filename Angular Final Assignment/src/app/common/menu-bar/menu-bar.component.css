@@ -1,0 +1,83 @@
+.navbar {
+    padding: 20px 30px;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+    letter-spacing: 1px;
+}
+
+.red-dot {
+    color: #e63946;
+}
+
+.navbar-nav {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.navbar-nav .nav-item {
+    padding: 0 15px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.navbar-nav .nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ff7043;
+    transition: width 0.3s ease-in-out;
+    margin-top: 5px;
+}
+
+.navbar-nav .nav-link:hover {
+    color:rgb(203, 171, 9);
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 98%;
+}
+
+.navbar .login-btn {
+    font-size: 18px;
+    color: #e63946;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 2px solid #e63946;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar .login-btn:hover {
+    background: #e63946;
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+    color: #222;
+    margin-left: 20px;
+    font-size: 22px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color: #e63946;
+}

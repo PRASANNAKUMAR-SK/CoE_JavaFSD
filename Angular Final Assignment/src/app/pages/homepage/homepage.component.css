@@ -1,0 +1,100 @@
+.homepage {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Hero Section */
+/* .hero {
+    background: url('http://localhost:8090/chennai.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+} */
+
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero .search-bar {
+    width: 60%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+}
+
+/* Popular Restaurants */
+.popular-restaurants {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f8f8;
+}
+
+.restaurant-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.restaurant-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+.restaurant-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* How It Works */
+.how-it-works {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.step {
+    background: #fff3e0;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+}
+
+/* Call to Action */
+.cta {
+    text-align: center;
+    padding: 40px 20px;
+    background: #ffcc80;
+}
+
+.cta .btn-primary {
+    background: #ff7043;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}

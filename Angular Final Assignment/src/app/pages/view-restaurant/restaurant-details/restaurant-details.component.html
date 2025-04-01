@@ -1,0 +1,19 @@
+<div class="restaurant-details">
+    <img src="http://localhost:8090/restaurants-image/{{descimage}}" 
+         class="restaurant-img" 
+         alt="{{title}}">
+
+    <div class="restaurant-info">
+        <h1 class="restaurant-title">{{ title }}</h1>
+        <p class="restaurant-description">{{ descdescription }}</p>
+
+        <h3 class="restaurant-cuisine"><strong>Cuisine:</strong> {{ desccuisine }}</h3>
+
+        <div class="ratings">
+            <h3><strong>Dining Rating:</strong> ⭐ {{ descdiningrating }}</h3>
+            <h3><strong>Delivery Rating:</strong> 🚀 {{ descdeliveryrating }}</h3>
+        </div>
+
+        <p class="restaurant-address"><strong>📍 Address:</strong> {{ descaddress }}</p>
+    </div>
+</div>

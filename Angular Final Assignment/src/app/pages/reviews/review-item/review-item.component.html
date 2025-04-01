@@ -1,0 +1,13 @@
+
+<div class="restaurant-container">
+    <div class="restaurant-card card">  
+        <div class="card-body">
+            <h5 class="card-title">{{Reviews.name}}</h5>
+            <p class="card-text">
+                <strong>Restaurant Name:</strong> {{Reviews.restaurantName}}<br>
+                <strong>Review:</strong> {{ Reviews.review | highlight}}<br>
+                <strong>Rating:</strong> {{Reviews.rating | rating}}, <br>  
+            </p>
+        </div>
+    </div>
+</div>

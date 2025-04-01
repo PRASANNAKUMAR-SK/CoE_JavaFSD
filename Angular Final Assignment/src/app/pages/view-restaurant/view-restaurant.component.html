@@ -1,0 +1,12 @@
+<!-- <app-restaurant-item *ngFor="let x of restaurantlistarray"
+[restaurantlist]="x"></app-restaurant-item> -->
+
+<input type="text" 
+       [(ngModel)]="searchQuery" 
+       (input)="filterRestaurants()" 
+       placeholder="Search by name or location..." 
+       class="search-bar">
+
+<app-restaurant-item *ngFor="let x of filteredRestaurants"
+                     [restaurantlist]="x">
+</app-restaurant-item>
